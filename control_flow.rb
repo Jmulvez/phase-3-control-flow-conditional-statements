@@ -1,16 +1,25 @@
 def admin_login(username, password)
-  # your code here
+  if admin_login == "sudo"
+    "access denied"
+  elsif admin_login == "admin"
+    "access granted"
 end
 
 def hows_the_weather(temperature)
-  # your code here
+  if temperature == 75
+    "Perfect!"
+  elsif temperature < 75
+    "Brisk!"
+  elsif temperature > 75
+    "Too dang hot"
 end
 
 def fizzbuzz(num)
-  # your code here
+  if num / 3 == integer
+    "Fizzbuzz"
 end
 
 def calculator(operation, num1, num2)
-  # your code here
+  
 end
 
